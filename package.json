@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/interaction": "^6.1.8",
+    "@fullcalendar/resource-timeline": "^6.1.8",
+    "vue": "^3.3.4"
+  }
+}

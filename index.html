@@ -1,0 +1,15 @@
+<script type="module">
+    import { Calendar } from './node_modules/@fullcalendar/core'
+    import timelinePlugin from './node_modules/@fullcalendar/timeline'
+
+    const calendarEl = document.getElementById('calendar')
+    const calendar = new Calendar(calendarEl, {
+        plugins: [timelinePlugin],
+        initialView: 'timelineWeek',
+        events: [
+            { title: 'Meeting', start: new Date() }
+        ]
+    })
+
+    calendar.render()
+</script>
